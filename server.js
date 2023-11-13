@@ -35,3 +35,7 @@ app.listen(port, () => {
 });
 
 // Lancer npm start pour vérifier le bon fonctionnement de l'appli
+// Lancer l'app Docker Windows
+// Construire l'image Docker en lançant docker build -t first-node-app . 
+// Exécuter le conteneur avec docker run -p 3000:3000 first-node-app
+

@@ -11,6 +11,7 @@ if (!merakiApiKey) {
   throw new Error('La clé API Meraki n\'est pas définie dans les variables d\'environnement.');
 }
 
+// URL API : https://api.meraki.com/api/v1/<resource>
 const getMerakiData = async () => {
   try {
     const response = await axios.get('https://api.meraki.com/v1/endpoint', {
